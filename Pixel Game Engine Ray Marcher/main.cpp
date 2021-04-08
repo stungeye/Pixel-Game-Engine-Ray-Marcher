@@ -2,13 +2,24 @@
 #include "olcPixelGameEngine.h"
 #include <vector>
 
+
+/*
+#include <complex>
+// Might be faster than sqrt. Need to profile.
+float FastSqrt(float val)
+{
+    __m128 reg = _mm_set1_ps(val);
+    return _mm_cvtss_f32(_mm_rcp_ss(_mm_rsqrt_ss(reg)));
+}
+*/
+
 struct vec3 {
     float x;
     float y;
     float z;
 
     float length() const {
-        return sqrt(x * x + y * y + z * z);
+        return std::sqrt(x * x + y * y + z * z);
     }
 
     void normalize() {
