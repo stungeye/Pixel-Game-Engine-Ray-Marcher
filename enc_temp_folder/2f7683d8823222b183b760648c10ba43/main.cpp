@@ -5,8 +5,7 @@
 
 /*
 #include <complex>
-// SSE sqrt could prove faster than std::sqrt. Need to profile.
-// https://geometrian.com/programming/tutorials/fastsqrt/index.php
+// Might be faster than sqrt. Need to profile.
 float FastSqrt(float val)
 {
     __m128 reg = _mm_set1_ps(val);
