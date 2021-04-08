@@ -1,6 +1,6 @@
 # Pixel Game Engine Ray Marcher
 
-Code is based off of [this raymarching blog post](https://ch-st.de/its-ray-marching-march/). Pixel pushing is care of the [Pixel Game Engine](https://github.com/OneLoneCoder/olcPixelGameEngine).
+Initial code was based off [the C ray marcher from this blog post](https://ch-st.de/its-ray-marching-march/). Pixel pushing is care of the [Pixel Game Engine](https://github.com/OneLoneCoder/olcPixelGameEngine).
 
 This is a Visual Studio 2019 project. Compile the code as a "x64 Release", otherwise the performance will be poor.
 
